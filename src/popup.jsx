@@ -2,13 +2,13 @@ import * as React from "react";
 import Popover from "@mui/material/Popover";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 
 import FormControl from '@mui/joy/FormControl';
 
 import FormHelperText from '@mui/joy/FormHelperText';
 import Input from '@mui/joy/Input';
+import { CircularProgress } from "@mui/material";
 
 
  function InputSubscription(props) {
@@ -89,7 +89,7 @@ export default function BasicPopover() {
         sx={{ backgroundColor: "black" }}
         onClick={handleClick}
       >
-        <AccountCircleIcon />
+        User
       </Button>
       <Popover
         id={id}
